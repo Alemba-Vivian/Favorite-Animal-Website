@@ -89,6 +89,9 @@ main{
 }
 
 /* styling panda section */
+strong{
+    font-style: italic;
+}
 #panda{
     padding-top:30px ;
     padding-bottom: 60px;
