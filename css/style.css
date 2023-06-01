@@ -18,6 +18,7 @@ header{
 }
 #logo{
     border-radius: 60px;
+    padding: 0;
 
 }
 #lists{
@@ -30,6 +31,7 @@ header{
     text-decoration: none;
     color: black;
     font-size: 20px;
+ 
 }
 
 /* styling welcome page */
@@ -41,12 +43,38 @@ header{
     align-items: center;
     padding-bottom: 60px;
     font-size: 18px;
+    font-style: italic;
+}
+/* styling the images */
+img{
+    padding-left: 60px;
 }
 main{
+    padding-left: 50px;
   
    
 }
+/* styling lion section */
+#lion{
+
+}
+/* styling dolphin section */
+#dolphin{
+
+}
+/* styling panda section */
+#panda{
+    padding-bottom: 60px;
+}
+
+
+/* styling footer section */
 footer{
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: white;
+}
+.footer-bottom{
+    padding-top: 30px;
 }
