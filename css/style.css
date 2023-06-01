@@ -78,3 +78,19 @@ footer{
 .footer-bottom{
     padding-top: 30px;
 }
+.social-media{
+
+
+}
+.container{
+    text-align: center;
+}
+#lists-social{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+#lists-social a{
+    text-decoration: none;
+}
