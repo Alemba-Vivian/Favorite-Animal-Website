@@ -8,6 +8,9 @@ body{
 }
 
 /* styling header */
+h2, h3{
+    color: #05386b;;
+}
 
 header{
     background-color: aquamarine;
@@ -26,32 +29,34 @@ header{
 }
 #lists a{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: #05386b;
  
 }
 
 /* styling welcome page */
 #welcome{
-    text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 60px;
-    font-size: 18px;
     font-style: italic;
 }
 button{
-    border: 2px solid white;
     padding: 10px;
+  
+}
+#btn-view{
+    background-color: #05386b;
+    margin-left: 50px;
+    color: white;
 }
 /* styling the images */
 img{
     padding-left: 60px;
 }
 main{
-    /* background-color: beige; */
+   
   
   
    
@@ -113,7 +118,11 @@ footer{
     display: flex;
     justify-content: center;
     background-color: black;
-    color: white;
+    color: lightgray;
+}
+footer h3{
+    color: aquamarine;
+
 }
 .footer-bottom{
     padding-top: 30px;
