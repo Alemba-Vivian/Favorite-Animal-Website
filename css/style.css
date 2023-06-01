@@ -8,9 +8,6 @@ body{
 }
 
 /* styling header */
-h2, h3, h4{
-    text-align: center;
-}
 
 header{
     background-color: aquamarine;
@@ -45,22 +42,49 @@ header{
     font-size: 18px;
     font-style: italic;
 }
+button{
+    border: 2px solid white;
+    padding: 10px;
+}
 /* styling the images */
 img{
     padding-left: 60px;
 }
 main{
-    padding-left: 50px;
+    /* background-color: beige; */
+  
   
    
 }
 /* styling lion section */
 #lion{
-
+    padding-top:50px ;
+    padding-bottom: 50px;
+  
+}
+.lion-details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.lion-media{
+    padding-top: 30px;
 }
 /* styling dolphin section */
 #dolphin{
 
+
+}
+.dolphin-details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.dolphin-media{
+    padding-top: 30px;
 }
 /* styling panda section */
 #panda{
