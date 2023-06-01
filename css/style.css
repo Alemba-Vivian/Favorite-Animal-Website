@@ -59,7 +59,7 @@ main{
 /* styling lion section */
 #lion{
     padding-top:50px ;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   
 }
 .lion-details{
@@ -73,7 +73,8 @@ main{
 }
 /* styling dolphin section */
 #dolphin{
-
+    padding-top:30px ;
+    padding-bottom: 40px;
 
 }
 .dolphin-details{
@@ -86,9 +87,21 @@ main{
 .dolphin-media{
     padding-top: 30px;
 }
+
 /* styling panda section */
 #panda{
+    padding-top:30px ;
     padding-bottom: 60px;
+}
+.panda-details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.panda-media{
+    padding-top: 30px;
 }
 
 
